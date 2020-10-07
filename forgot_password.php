@@ -20,7 +20,8 @@ if (isset($_POST['forgot_password'])) {
 		//save the username into the variables
 		$email=mysqli_real_escape_string($connection,$_POST['email']);
 		//prepare database query
-		$query= "SELECT * FROM admins WHERE email='{$email}' 
+		$query= "SELECT * FROM admin WHERE email='{$email}' 
+		UNION SELECT * FROM moderator WHERE email='{$email}'
 		UNION SELECT * FROM tourist WHERE email='{$email}'
 		UNION SELECT * FROM tourguide WHERE email='{$email}' LIMIT 1";
 
