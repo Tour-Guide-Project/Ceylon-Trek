@@ -7,7 +7,7 @@
 </head>
 <body>
 	<header>
-		<h3>Welcome-admin & moderator</h3>
+		<h3>Welcome-admin page</h3>
 		</div>
 	</header>
 </body>
