@@ -4,7 +4,7 @@ body{
 	padding: 0;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
-.signup_box{
+.login_box{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -15,6 +15,15 @@ body{
 	box-sizing: border-box;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 	border-radius: 10px;
+}
+.login_box h1{
+    font-weight: bold;
+	padding: 13px 0;
+	margin: 0 0 20px;
+	font-size: 38px;
+	pointer-events: none;
+	text-align: center;
+	color:cadetblue;
 }
 .text_box{
 	position: relative;
