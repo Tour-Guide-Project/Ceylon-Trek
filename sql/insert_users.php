@@ -2,18 +2,18 @@
 <?php 
 
 
-$first_name = 'saji';
-$last_name  ='prasadi';
-$email      ='prasadi@gmail.com';
-$password   ='prasadhi';
-$level='tourist';
-$address='maliduwa,akuressa';
+$first_name = 'lakshan';
+$last_name  ='Amal';
+$email      ='lakshanamal100@gmail.com';
+$password   ='lakshan';
+$level='moderator';
+$address='hikkaduwa,galle,srilanka';
 $contact='0762435678';
 $gender='Male';
 $token= bin2hex(random_bytes(50));
 $hashed_password = sha1($password);
 //echo "hashed_password ".$hashed_password;
-  $Query ="INSERT INTO tourist(first_name,last_name,email,password,gender,address,contact,level,token)VALUES ('{$first_name}','{$last_name}','{$email}','{$hashed_password}','{$gender}','{$address}','{$contact}','{$level}','{$token}')";
+  $Query ="INSERT INTO moderator(first_name,last_name,email,password,gender,address,contact,level,token)VALUES ('{$first_name}','{$last_name}','{$email}','{$hashed_password}','{$gender}','{$address}','{$contact}','{$level}','{$token}')";
 
 
   $result=mysqli_query($connection,$Query);
