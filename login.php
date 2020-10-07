@@ -23,7 +23,8 @@ if (isset($_POST['submit'])) {
 		$hashed_password=sha1($password);
 
 		//prepare database query
-		$query= "SELECT * FROM admins WHERE email='{$email}' AND password='{$hashed_password}'
+		$query= "SELECT * FROM admin WHERE email='{$email}' AND password='{$hashed_password}'
+		UNION  SELECT * FROM moderator WHERE email='{$email}' AND password='{$hashed_password}'
 		UNION  SELECT * FROM tourguide WHERE email='{$email}' AND password='{$hashed_password}'
 		UNION  SELECT * FROM tourist WHERE email='{$email}' AND password='{$hashed_password}'
 		LIMIT 1"; 
@@ -38,9 +39,13 @@ if (isset($_POST['submit'])) {
 				//valid user found
 				$record=mysqli_fetch_assoc($result_set);
 				//print_r($record);
-				if($record['level']=='admins')
+				if($record['level']=='admin')
 				{
 					header('Location: home_admin_draft.php');
+				}
+				if($record['level']=='moderator')
+				{
+					header('Location: home_moderator_draft.php');
 				}
 				elseif($record['level']=='tourist')
 				{
