@@ -1,41 +1,45 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.wrapper{
+.wrapper {
     background-image: url(../img/dash_board1.jpg);
     background-size: cover;
     width: 100%;
     height: auto;
+    color: black;
 }
 
-.main_board{
-    background-color: rgba(255, 255,255,0.8);
+.main_board {
+    background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     height: auto;
+    color: black;
 }
 
-.side_bar{
+.side_bar {
     height: 100%;
     background-color: rgb(57, 55, 65);
     width: 20%;
+    position: relative;
+    float: left;
 }
 
-.side_bar img{
-    position: absolute;
+.side_bar img {
+    /* position: absolute;
     left: 80px;
-    top: 40px;
+    top: 100px; */
     border-radius: 50%;
     border: 3px solid blue;
     width: 100px;
     height: 100px;
 }
 
-.edit{
-    position: absolute;
-    top: 160px; 
-    left: 70px;
+.edit {
+    /* position: absolute;
+    top: 200px;
+    left: 70px; */
     border: 0;
     background-color: transparent;
     color: white;
@@ -43,17 +47,17 @@
     height: 20px;
 }
 
-.edit:hover{
+.edit:hover {
     background-color: rgb(80, 79, 82);
 }
 
-.buttons{
+.buttons {
     position: absolute;
-    top: 170px;
-    width: 20%;
+    top: 300px;
+    /* width: 20%; */
 }
 
-.button{
+.button {
     margin-top: 20px;
     background-color: transparent;
     border: 0;
@@ -61,42 +65,41 @@
     width: 100%;
     height: 50px;
     text-align: center;
-    
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(80, 79, 82);
 }
 
-.fa{
+.fa {
     margin-left: 10px;
-    margin-right:20px ;
-    position: absolute;
-    left: 20px;
+    margin-right: 20px;
+    /* position: absolute;
+    left: 20px; */
     width: 30px;
     height: 50px;
 }
 
-.schedule{
+.schedule {
     background-color: whitesmoke;
-    position: absolute;
-    left: 23%;
-    top: 10%;
+    position: relative;
+    /* left: 23%;
+    top: 10%; */
     width: 850px;
     height: auto;
+    margin-left: 500px;
 }
 
-.schedule h1{
+.schedule h1 {
     text-align: center;
     margin-top: 20px;
 }
 
-.schedule p{
+.schedule p {
     margin: 15px;
 }
 
-
-.schedule_button{
+.schedule_button {
     margin-left: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -104,14 +107,13 @@
     border: 0;
     width: 150px;
     height: 50px;
-    
 }
 
-.schedule_button:hover{
+.schedule_button:hover {
     background-color: blue;
 }
 
-.guidecalender{
+.guidecalender {
     position: absolute;
     left: 80%;
     top: 10%;
@@ -119,16 +121,16 @@
     height: 200px;
     background-color: whitesmoke;
     margin-left: 20px;
-
 }
-.corner_buttons{
-    position: absolute;
+
+.corner_buttons {
+    /* position: absolute;
     left: 80%;
-    top: 65%;
+    top: 65%; */
     height: 200px;
 }
 
-.cobutton{
+.cobutton {
     width: 200px;
     height: 50px;
     margin: 20px;
@@ -137,14 +139,14 @@
     transition-duration: 0.4s;
 }
 
-.cobutton:hover{
-    background-color:rgb(255, 217, 0) ;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}   
+.cobutton:hover {
+    background-color: rgb(255, 217, 0);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cobutton i{
+
+}
+.cobutton i {
     width: 20px;
     height: 30px;
 }
-

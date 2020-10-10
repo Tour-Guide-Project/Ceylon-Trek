@@ -2,13 +2,18 @@
     <head>
         <title>Guide dash board</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/guide dash board.css'>
+        <link rel="stylesheet" href="css/homepage.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body >
         <div class="wrapper">
+
             <div class="main_board">
-                <div class="side_bar">
+                
+            
+            
+            <div class="side_bar">
                     <img src="img/reviewimg.jpg" class="img" >
                     <button class="edit"> Edit Profile</button><br>
                   <div class="buttons">
