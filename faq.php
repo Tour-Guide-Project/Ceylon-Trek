@@ -3,14 +3,17 @@
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title>Frequently_asked_quections</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='css/faq.css'>
-      
+        <link rel='stylesheet'  href='css/faq.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="css/top_bar.css">
+         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <body>
-      
+    <body class="faqbody">
+   
         <div class="faq_header">
+        <?php include('inc/top_bar.php'); ?>
              <h1>Frequently asked quections</h1>
           <table>
              <tr>
@@ -51,8 +54,7 @@
           </table>   
         </div><!--faq_header-->
 
-
-        
+          
         <div class="section " id="section1">
            <div class="section1">
             <h3>General FAQ</h3>
@@ -178,5 +180,6 @@
 </div><!--section-->
 
      <script src="js/faq.js"></script>
+     <?php include("inc/footer.php"); ?>
     </body>
 </html>

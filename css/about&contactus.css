@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about_body{
+    background-color: rgba(250, 250, 250, 0.267);
+    background-image: linear-gradient(rgba(231, 226, 226, 0.726),rgba(247, 241, 241, 0.993)),url(../img/aboutus_pic4.jpg);
+    color: black;
+}
+
+.about_header{
+    background-image: url(../img/aboutus_pic1.jpg);
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    height: 400px;
+}
+
+.about_header h4{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 550;
+    margin-top: 200px;
+}
+
+.middle-content{
+    float: left;
+
+}
+.content {
+    height: 250px;
+    width: 90%;
+    margin: 30px;
+    margin-top: 0;
+    padding: 20px;
+    border-top: 1px solid;
+}
+.content p{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.content h3{
+    color:rgb(14, 14, 104);
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: left;
+   
+    
+}
+
+
+
+.h4{
+    color: black;
+    font-size: 40px;
+    padding: 0;
+    margin: 40px;
+    text-align: left;
+    position: absolute;
+    left: 10%;
+}
+
+.ques{
+    width: 80%;
+    padding: 0 5px;
+    border: 2px solid blue;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.icon{
+    margin: 0 10px 0 0;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+
+.contactus{
+    width: 95%;
+    height: auto;
+    background-color: rgb(196, 194, 194);
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+
+.contactus h4{
+   
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contactus td{
+    height: 40px;
+}
+
+.contact_form{
+    width: 850px;
+}
+.info{
+    width: 300px;
+    margin: 20px;
+    border-left: 3px solid black;
+    
+   
+}
+
+.info h5{
+    
+    margin: 20px;
+    border: 2px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contact-icon i{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.contact_form input{
+    width: 650px;
+    height: 40px;
+}
+
+.contact_form button{
+    width: 120px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.g-recaptcha {
+    display: inline-block;
+}
+
+.aboutend{
+    float: left;
+}
