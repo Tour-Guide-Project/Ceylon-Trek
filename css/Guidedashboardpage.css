@@ -6,12 +6,12 @@
 .body {
     /*  background-color: rgba(167, 157, 211, 0.8);*/
     height: auto;
-    background-color: #2f375b;
+    background-color: wheat;
     ;
 }
 
 .body .section1 {
-    background-color: cornflowerblue;
+    background-color: whitesmoke;
     position: absolute;
 }
 
