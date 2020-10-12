@@ -3,21 +3,20 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Full Tour Request Post View-Ceylon Trek</title>
+	<title>Full Complain View-Ceylon Trek</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/tour_request_post.css">
+	<link rel="stylesheet" type="text/css" href="css/complains.css">
 	<link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-image: url('img/ct5.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
-	<?php include('inc/top_bar.php'); ?>
-	<div class="full_tour_request_post_view_box">
-			<form action="full_tour_request_post_view.php" method="post">
+	<?php include('inc/new_top_bar.php'); ?>
+	<div class="full_complain_view_box">
+			<form action="full_complain_view.php" method="post">
 				
 				<div class="text_box">
-					<img src="img/ct6.jpg" width="112" height="112" style="border-radius: 65px;vertical-align:middle;float: left;">
 					<h1>Title</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -32,11 +31,36 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div><!-- text_box -->
 				<button class="msg">Message Tourist</button>
-				<button class="report">Report</button>
+				<button type="button" class="report" onclick="openForm()">Report Admin</button>
 			</form>
-	</div><!-- tour_request_post_box -->
+	</div><!--full_complain_view_box -->
+
+	<!-- report admin popup window -->
+	<div class="form-popup" id="myForm">
+  		<form action="full_complain_view.php" class="form-container">
+   			<label for="title"><b>Title</b></label>
+    		<input type="text" placeholder="Enter title here.." name="title" required>
+
+    		<label for="details"><b>Enter Complain Details</b></label>
+    		<textarea rows = "4" cols = "20" name = "details" style="resize: vertical;height:100px;" placeholder="Enter details here..."></textarea>
+
+    		<button type="submit" class="btn">Report</button>
+    		<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+  		</form>
+	</div>
+
+<script>
+	function openForm() {
+  		document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+  		document.getElementById("myForm").style.display = "none";
+	}
+</script>
 	
 <?php include('inc/footer.php'); ?>
 </body>
+<script type="text/javascript" src="js/jscript.js"></script>
 </html>
 <?php mysqli_close($connection);?>

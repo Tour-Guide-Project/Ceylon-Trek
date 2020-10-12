@@ -3,19 +3,67 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Tour Request Post-Ceylon Trek</title>
+	<title>Complains-Ceylon Trek</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/tour_request_post.css">
+	<link rel="stylesheet" type="text/css" href="css/complains.css">
 	<link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-image: url('img/ct4.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
-	<?php include('inc/top_bar.php'); ?>
-	<div class="tour_request_post_box">
-			<!-- <h1>Tour Request Post </h1> -->
-			<form action="tour_request_post.php" method="post">
+<body style="background-image: url('img/ct7.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+	<?php include('inc/new_top_bar.php'); ?>
+
+	<div class="side_bar">
+        <img src="img/logo2.png" class="dashlogo">
+        <img src="img/reviewimg.jpg" class="profile" >
+        <button class="edit"> Edit Profile</button><br>
+            <div class="sidebar-menu">
+              <ul>
+                  <li>
+                      <a href="#">
+                          <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
+                          <span class="menu-title">Inbox</span>
+                      </a>
+                  </li>
+
+                   <li>
+                       <a href="#">
+                           <span class="menu-icon"><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
+                           <span class="menu-title">Create tour package</span>
+                       </a>
+                   </li>
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View Tour Package</span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">Upcoming Tours</span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-backward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">Previous Tours</span>
+                        </a>
+                    </li>
+                    </ul>
+            </div><!--sidebar-manu-->        
+    </div><!--side_bar-->
+
+	<div class="complains_box">
+	
+			<form action="complains_page.php" method="post">
 
 				<div class="text_box_search_bar">
 					<input type="text" name="" placeholder="Keyword.."></input>
@@ -65,39 +113,9 @@
 				</div>
 			</form>
 
-	</div><!-- tour_request_post_box -->
+	</div><!-- complains_box -->
 
-	<div class="create_request_btn">
-		<button onclick="openForm()"> Create New Request</button>
-	</div><!-- create_request_btn -->
-
-	<div class="form-popup" id="myForm">
-  		<form action="tour_request_post.php" class="form-container">
-   			<label for="title"><b>Title</b></label>
-    		<input type="text" placeholder="Enter title here.." name="title" required>
-
-    		<label for="keywords"><b>Keywords</b></label>
-    		<input type="text" placeholder="Enter keyword here.." name="keywords" required>
-
-    		<label for="details"><b>Custom Tour Request</b></label>
-    		<textarea rows = "4" cols = "20" name = "details" style="resize: vertical;height:100px;" placeholder="Enter details here..."></textarea>
-
-    		<button type="submit" class="btn">Post</button>
-    		<button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
-  		</form>
-	</div>
-
-<script>
-	function openForm() {
-  		document.getElementById("myForm").style.display = "block";
-	}
-
-	function closeForm() {
-  		document.getElementById("myForm").style.display = "none";
-	}
-</script>
 <?php include('inc/footer.php'); ?>
 </body>
-<script type="text/javascript" src="js/jscript.js"></script>
 </html>
 <?php mysqli_close($connection);?>

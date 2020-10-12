@@ -7,7 +7,8 @@ if(isset($_GET['tokenPassword']))
 {       
         $tokenPassword=$_GET['tokenPassword'];
        // echo $tokenPassword;
-	    $query="SELECT * FROM admins WHERE token='{$tokenPassword}' 
+	    $query="SELECT * FROM admin WHERE token='{$tokenPassword}' 
+        UNION SELECT * FROM moderator WHERE token='{$tokenPassword}'
         UNION SELECT * FROM tourist WHERE token='{$tokenPassword}'
         UNION SELECT * FROM tourguide WHERE token='{$tokenPassword}'LIMIT 1";
 

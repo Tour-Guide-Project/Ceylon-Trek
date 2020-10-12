@@ -67,8 +67,12 @@ if (isset($_POST['forgot_password'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/forgot_password.css">
+	<link rel="stylesheet" href="css/top_bar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-image: url('img/ct1.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+	<?php include('inc/top_bar.php'); ?>
 	<div class="forgot_box">
 			<h1>Forgot Password?</h1>
 			<form action="forgot_password.php" method="post">
@@ -101,6 +105,7 @@ if (isset($_POST['forgot_password'])) {
 
 	</div><!-- forgot_box -->
 
+<?php include('inc/footer.php'); ?>
 </body>
 </html>
 <?php mysqli_close($connection);?>

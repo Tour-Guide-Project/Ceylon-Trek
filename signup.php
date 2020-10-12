@@ -79,9 +79,13 @@ if (isset($_POST['submit'])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/signup.css">
+	<link rel="stylesheet" href="css/top_bar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body style="background-image: url('img/ct3.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+	<?php include('inc/top_bar.php'); ?>
 	<div class="signup_box">
 		<form action="signup.php" method="post">
 			<h1>Sign Up</h1>
@@ -204,6 +208,7 @@ if (isset($_POST['submit'])) {
 			
 	</div><!-- signup_box -->
 
+<?php include('inc/footer.php'); ?>
 </body>
 <script type="text/javascript" src="js/jscript.js"></script>
 </html>

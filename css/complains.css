@@ -4,12 +4,13 @@ body{
 	padding: 0;
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
-.tour_request_post_box{
-	margin:60px auto 10px auto;
+.complains_box{
+	margin:50px auto 10px auto;
 	display: -webkit-box;/*create box with auto hight */
 	width: 1000px;
+	margin-left: 325px;
 	height: 100%;
-	padding: 40px;
+	padding: 30px;
 	background: rgba(0,0,0,.6);
 	box-sizing: border-box;
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
@@ -98,29 +99,153 @@ input[type="submit"]:hover{
 .text_box button:hover{
 	background-color: #90EE90;
 }
-.create_request_btn button{
-	color: #fff;
-	background-color: #5F9EA0;
-	font-size: 18px;
-	border-radius: 20px;
-	outline: none;
-	border: none;
-	padding: 10px 15px 10px 15px;
-	cursor: pointer;
-	margin:20px 600px 70px 600px;
-}
-.create_request_btn button:hover{
-	font-weight: bold;
-	background-color: #483D8B;
+
+/*sidebar css*/
+
+.side_bar{
+    background-color: #2f375b;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;  
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    overflow: hidden;
 }
 
-/* The popup form of create new request- hidden by default */
+.side_bar:hover{
+    width: 23.6%;
+}
+
+
+
+.dashlogo{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.side_bar .profile{
+    float: left;
+    margin-left: 100px;
+    margin-top:20px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.edit{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 0;
+    background-color: unset;
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+
+.edit:hover{
+    background-color:  rgb(79, 76, 90);
+}
+
+.buttons{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.button{
+    float: left;
+    margin-top: 20px;
+    background-color: unset;
+    border: 0;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.button:hover{
+    background-color: rgb(79, 76, 90);
+  
+}
+
+
+.sidebar-menu ul{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+}
+.sidebar-menu ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.sidebar-menu ul li:hover{
+    background-color:  rgb(79, 76, 90);
+    width: 100%;
+}
+
+
+
+.sidebar-menu ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-menu ul li a .menu-icon{
+    position: relative;
+    display: block;
+    min-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.sidebar-menu ul li a .menu-icon .fa{
+    font-size: 20px;
+}
+
+.sidebar-menu ul li a  .menu-title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: start;
+}
+
+
+
+
+
+/* The popup form of report admin- hidden by default */
 .form-popup {
-  display: none;
+ 	display: none;
+ 	position: fixed;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .form-container {
-    margin:0 auto 20px auto;
+    margin:-400px auto 20px auto;
 	width: 500px;
 	padding: 50px;
 	background: #F0F8FF;
@@ -173,14 +298,14 @@ input[type="submit"]:hover{
 
 .form-container .btn:hover{
   opacity: 1;
+  border:none;
+  outline: none;
 }
 
 
-
-
 /*view more page css*/
-.full_tour_request_post_view_box{
-	margin:60px auto 20px auto;
+.full_complain_view_box{
+	margin:60px auto 40px auto;
 	display: -webkit-box;
 	width: 800px;
 	padding: 40px;
@@ -189,40 +314,34 @@ input[type="submit"]:hover{
 	box-shadow: 0 5px 25px rgba(0,0,0,.5);
 	border-radius: 10px;
 }
-.full_tour_request_post_view_box .text_box h1{
+.full_complain_view_box .text_box h1{
 	font-size: 25px;
 	color: #2E8B57;
 	text-align: center;
 }
-.full_tour_request_post_view_box .text_box p{
+.full_complain_view_box .text_box p{
 	margin-bottom: 10px;
 }
-.full_tour_request_post_view_box .msg , .report{
+.full_complain_view_box .msg , .report{
   background-color: #4CAF50;
   color: white;
   border-radius: 20px;
   font-size: 18px;
   padding: 10px 10px;
   border: none;
+  outline: none;
   cursor: pointer;
   width: 30%;
   margin-bottom:10px;
   opacity: 0.8;
   float: left;
 }
-.full_tour_request_post_view_box .report{
+.full_complain_view_box .report{
 	float: right;
 }
-.full_tour_request_post_view_box  button:hover{
+.full_complain_view_box  button:hover{
   opacity: 1;
   margin-top: 10px;
   background-color: #228B22;
   font-weight: bold;
-}
-
-
-
-/*menu bar styles*/
-.container .request_tour{
-	text-decoration: underline;
 }
