@@ -1,10 +1,12 @@
 <html  lang="en">
     <head>
-        <title>Guide dash board</title>
+        <title>Favourite Tour Packages</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tourPackageSearchResults.css">
+    <link rel="stylesheet" href="css/guideMyPackages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -25,26 +27,20 @@
                                 <spn class="manu-title">Inbox</span>
                             </a>
                         </li>
-
                         <li>
                             <a href="#">
-                                <span class="menu-icon"><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Create tour package</span>
+                                <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
+                                <spn class="manu-title">Favourite Guides</span>
                             </a>
                         </li>
 
+                       
+                       
 
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Profile</span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Tour Packages</span>
+                                <spn class="manu-title">Favourite Packages</span>
                             </a>
                         </li>
 
@@ -66,17 +62,8 @@
                     </ul>
                   </div><!--sidebar-manu-->        
                 </div><!--side_bar-->
-             <div class="content">
-                <div class="schedule">
-                    <h1>Today's Schedule</h1><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero repellat accusantium ipsum incidunt nulla sint doloribus! Ad corrupti magnam totam alias, eos distinctio porro magni dicta, suscipit, velit illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non, eius voluptatibus dolorum sit quaerat dolores culpa corporis nemo est veritatis ad ipsam laboriosam placeat laborum dolore tenetur aspernatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione corrupti aliquam quae, temporibus fuga facilis nisi dicta similique perspiciatis iste, est a quam et. Aperiam itaque ipsa id iusto blanditiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eius, facilis esse accusantium, cupiditate minus eligendi veritatis ad dolorem minima voluptate? Doloribus facere nam qui consequatur, numquam fugiat incidunt a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit dolor sequi culpa magnam consectetur velit unde itaque, facilis id voluptatum, architecto iste odit, nisi quam rem perspiciatis numquam porro! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem similique maiores quod neque minus ea quam, unde quae laboriosam, dolorum dolores magnam aspernatur explicabo distinctio. Minima maxime voluptate repellendus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus veniam eaque distinctio ut aliquam rem! Fugit quia vel mollitia iste corporis tenetur tempore, fuga doloribus fugiat necessitatibus dolorum nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt unde nostrum sit veniam dolorum ipsum mollitia quisquam. Id commodi eaque dolor voluptate alias maiores magnam quibusdam aliquid voluptas minus!</p>   
-                    
-                        <div><button class="schedule_button">View Tommorow</button></div>
-                        <button class="schedule_button ">Schedule Complete</button>
-                        <button class="schedule_button ">Schedule Not Complete</button>
-                 
-                </div><!--schedule-->
-          
+
+                <div class="calendar">
                 <div class="guidecalender">
                     <div class="month">
                         <i class="fa fa-caret-left prev" aria-hidden="true"></i>
@@ -98,10 +85,133 @@
                               
                     </div><!--days-->
                 </div><!--guidecalender-->
+                </div>
+                <!-- end of calendar -->
+             <div class="content">
+               
+             <div class="packages">
+                    
+                <div class="tourPackage">
+
+<!-- Start	Package details -->
+<div class="package-details">
+
+    <!-- 	Package Name -->
+    <h1>The Best of Colombo</h1>
+    <h4 style ="float:left">Chathura Rathnayake</h4>
+    <h4 style="padding-left:450px">No. of Days : 4</h4>
+
+    <span class="hint-star star" >
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star-half-o" aria-hidden="true"></i>
+<i class="fa fa-star-o" aria-hidden="true"></i>
+</span>
+
+
+    <!-- Package bio -->
+    <p class="information">
+        I'm an experienced Tour Package who has been working in the industry for almost a decade. I have completed more than 250 local tours and more than 100 international tours. With reasonable prices and high quality service you will never regret choosing me
+        as your travel Package and friend from Sri Lanka.
+    </p>
+
+
+
+    <!-- 		Control -->
+    <div class="control">
+
+        <!-- Start Button buying -->
+        <button class="btn"><span> View More</span>
+               
+</button>
+        <!-- End Button buying -->
+
+    </div>
+
+</div>
+
+<!-- 	End	Package details   -->
+
+
+
+<!-- 	Start Package image & Information -->
+
+<div class="package-image">
+
+    <img src="img/Packageresult/1.jpg" alt="Omar Dsoky">
+
+</div>
+<!--  End Package image  -->
+
+
+</div>
+<!-- tourPackage1 -->
+
+<div class="tourPackage">
+
+<!-- Start	Package details -->
+<div class="package-details">
+
+    <!-- 	Package Name -->
+    <h1>The Best of Down-South</h1>
+    <h4 style ="float:left">Chathura Rathnayake</h4>
+    <h4 style="padding-left:450px">No. of Days : 4</h4>
+
+    <span class="hint-star star" >
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star" aria-hidden="true"></i>
+<i class="fa fa-star-half-o" aria-hidden="true"></i>
+<i class="fa fa-star-o" aria-hidden="true"></i>
+</span>
+
+
+    <!-- Package bio -->
+    <p class="information">
+        I'm an experienced Tour Package who has been working in the industry for almost a decade. I have completed more than 250 local tours and more than 100 international tours. With reasonable prices and high quality service you will never regret choosing me
+        as your travel Package and friend from Sri Lanka.
+    </p>
+
+
+
+    <!-- 		Control -->
+    <div class="control">
+
+        <!-- Start Button buying -->
+        <button class="btn"><span> View More</span>
+               
+</button>
+        <!-- End Button buying -->
+
+    </div>
+
+</div>
+
+<!-- 	End	Package details   -->
+
+
+
+<!-- 	Start Package image & Information -->
+
+<div class="package-image">
+
+    <img src="img/Packageresult/2.jpg" alt="Omar Dsoky">
+
+</div>
+<!--  End Package image  -->
+
+
+</div>
+<!-- tourPackage2 -->
+            </div>
+              <!-- end of packages -->
+              
+        
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay Sysytem Fee</button>
+                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Make a Complain</button>
                         </div>
 
                         <div>

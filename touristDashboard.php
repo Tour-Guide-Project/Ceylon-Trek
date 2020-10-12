@@ -1,6 +1,6 @@
 <html  lang="en">
     <head>
-        <title>Guide dash board</title>
+        <title>Tourist dash board</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
@@ -29,7 +29,7 @@
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Create tour package</span>
+                                <spn class="manu-title">Favourite Guides</span>
                             </a>
                         </li>
 
@@ -37,16 +37,11 @@
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Profile</span>
+                                <spn class="manu-title">Favourite Packages</span>
                             </a>
                         </li>
 
-                        <li>
-                            <a href="#">
-                                <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Tour Packages</span>
-                            </a>
-                        </li>
+                        
 
 
                         <li>
@@ -101,7 +96,7 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay Sysytem Fee</button>
+                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Make a Complain</button>
                         </div>
 
                         <div>
