@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Search_TourPackages</title>
-	<link rel="stylesheet" type="text/css" href="css/package_search_page.css">
-   <meta "name=viewport" content="width=device-width, user-scalable=no,initial-scable=1.0, maximum-scle=1.0, minimum-scalable=1.0">
+   <title>Search_TourPackages</title>
+  
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/top_bar.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/packagesearchpage.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 </head>
 <body>
+<?php include('inc/top_bar.php'); ?> 
    <div class="header" >
+
+   
       <form>
-      	
+      	<div class="container">
       	<div class="form-box">
             <h1>Search Tour Package</h1>
       		
@@ -25,7 +33,7 @@
    				<input class="search numoftourist" type="text" name="numoftourist" id="" placeholder="Number_Of_Tourist">
 
    			
-   				<button class="Search-btn" type="button">Search</button>
+   				<button class="Search-btn" type="button">SEARCH</button>
 
                <br><br>
 
@@ -39,14 +47,13 @@
 
                </div><!--check-box-->
                  <br><br><br><br>
-
-               <div class="Seeall-btn">
-                  <button  type="button">See All Packages</button>
-               </div><!--seeall-button-->
+                 <button class="seeall-button">SEE ALL PACKAGE</button>
       	</div><!--form-box-->
 
 
       </form>
+</div>
    </div><!--header-->
+   <?php include('inc/footer.php'); ?>
 </body>
 </html>

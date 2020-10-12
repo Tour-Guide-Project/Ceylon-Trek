@@ -4,11 +4,15 @@
     <meta charset='utf-8'>
     <title>Tour_Guide_All_Reviews</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/Guide_all reviews page.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/Guide_AllReviews.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/top_bar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-        
+<body class="Guide_All_Reviewsbody">
+
+<?php include('inc/top_bar.php'); ?> 
  <div class="wrapper">
     <div class="split_left" >
            <img src="img/reviewimg.jpg">
@@ -158,8 +162,11 @@
                       </p>
                       
                   </div><!--box review-->
-  
+                  <?php include('inc/footer.php'); ?> 
        </div><!--reviews-->
+      
       </div><!--wrapper-->
+      
 </body>
+  
 </html>

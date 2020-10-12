@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+  /*  background-color: rgba(167, 157, 211, 0.8);*/
+    height: auto;
+    background-color: #2f375b;;
+}
+
+.body .section1{
+    background-color: cornflowerblue;
+    position: absolute;
+    
+}
+
+.side_bar{
+    background-color: #2f375b;
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    overflow: auto;  
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.side_bar:hover{
+    width: 23.6%;
+}
+
+
+
+.dashlogo{
+    float: left;
+    margin-left: 30px;
+}
+
+
+.side_bar .profile{
+    float: left;
+    margin-left: 100px;
+    margin-top:20px;
+    border-radius: 50%;
+    border: 3px solid blue;
+    width: 100px;
+    height: 100px;
+  
+}
+
+.edit{
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 0;
+    background-color: unset;
+    width: 100px;
+    height: 20px;
+    color: white;
+}
+
+.edit:hover{
+    background-color:  rgb(79, 76, 90);
+}
+
+.buttons{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.button{
+    float: left;
+    margin-top: 20px;
+    background-color: unset;
+    border: 0;
+    color: white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.button:hover{
+    background-color: rgb(79, 76, 90);
+  
+}
+
+
+.sidebar-menu ul{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+}
+.sidebar-menu ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.sidebar-menu ul li:hover{
+    background-color:  rgb(79, 76, 90);
+    width: 100%;
+}
+
+
+
+.sidebar-menu ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-menu ul li a .menu-icon{
+    position: relative;
+    display: block;
+    min-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.sidebar-menu ul li a .menu-icon .fa{
+    font-size: 20px;
+}
+
+.sidebar-menu ul li a  .menu-title{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: start;
+}
+
+
+
+
+.schedule{
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 300px;
+    margin-top: 40px;
+    width: 50%;
+    height: auto;
+    border: 1px solid ;
+    color: black;
+}
+
+.schedule h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.schedule p{
+    margin: 15px;
+}
+
+
+.schedule_button{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(68, 127, 236);
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.schedule_button:hover{
+    background-color: blue;
+}
+
+.guidecalender{
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+    width: 275px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(212, 133, 133, 0.24), 0 17px 50px 0 rgba(0,0,0,0.15);
+    color: black;
+}
+
+.month{
+    width: 100%;
+    height: 70px;  
+    color: white;
+    background-color:rgb(72, 72, 235) ;
+    display: flex;
+    align-items: center;
+}
+
+
+.month i{
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 3px;
+    justify-content: space-between;
+    
+}
+
+.date h3{
+    margin-left: 75px;
+    
+}
+
+.date p{
+    margin-left:55px ;
+    font-size: small;
+}
+
+.month .next{
+    margin-left: 80px;
+}
+
+
+
+.weekdays{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    padding:0 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    margin-left: 7px;
+}
+
+.weekdays div{
+    font-size: small;
+    letter-spacing: 0.1rem;
+    width: calc(249px/7) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
+
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.days div{
+    font-size: small;
+    margin: 3px;
+    width: calc(200px/7);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+
+}
+
+.days div:hover:not(.today){
+    background-color: whitesmoke;
+    border: 1px solid ;
+    cursor: pointer;
+}
+
+.prev-date, .next-date{
+    opacity: 0.2;
+}
+
+.today{
+    background-color: rgb(107, 107, 219);
+    border: 1px solid ;
+   
+}
+
+.corner_buttons{
+    float: left;
+    margin-left: 80px;
+    margin-top: 500px;
+    height: 200px;
+    align-items: center;
+ 
+}
+
+.cobutton{
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border: 0;
+    background-color: rgb(228, 158, 8);
+    transition-duration: 0.4s;
+}
+
+.cobutton:hover{
+    background-color:rgb(255, 217, 0) ;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}   
+
+
+.cobutton i{
+    margin-right: 20px;
+    border: 0;
+    width: 20px;
+    height: 30px;
+}
+
+.dashend{
+    float: left;
+    position: relative;
+    bottom: 0;
+}
