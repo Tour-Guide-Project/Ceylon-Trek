@@ -118,7 +118,47 @@
             
             </div>
             <button class="loginbutton" style="height:65px; margin-left:5px"><span>Message Guide</span></button>
-            <button class="loginbutton"style="height:65px; margin-left:0px"><span>Reserve Package</span></button>
+            <button type="button" onclick="openForm()" class="loginbutton"style="height:65px; margin-left:0px"><span>Reserve Package</span></button>
+
+             <!-- make reservation popup window -->
+           <div class="form-popup" id="myForm">
+              <form action="tourPackage.php" class="form-container">
+                <span><b>Tour Begin Date :</b></span>
+                <input type="text"  required="">
+        
+                <span ><b>Tour End Date :</b></span>
+                <input type="text"  required="">
+
+                <span for="title"><b>Credit Card No :</b></span>
+                <input type="text"  required="">
+        
+                <span ><b>Date Of Expiration :</b></span>
+                <input type="text"   required="">
+
+                <span ><b>CVV :</b></span>
+                <input type="text"   required="">
+
+                <div class="check_reservation">
+                    <input type="checkbox" id="check" name="reservation" required="">
+                    <label for="check"> "I accept the Terms of Service "or" I accept the privacy statement" Click here the indicate that you have read and agree to the terms presented in the Terms and Conditions agreement.</label>
+                </div>
+        
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+             </form>
+          </div>
+
+        <script>
+          function openForm() {
+              document.getElementById("myForm").style.display = "block";
+         }
+
+         function closeForm() {
+             document.getElementById("myForm").style.display = "none";
+         }
+        </script>
+        <!-- make reservation popup window -->
+
 
          </div>
          <!-- end of guide info -->
@@ -256,12 +296,6 @@
 
 		</footer>
 
-
-    
-
-         
-
-
     </div>
     <!-- container -->
     <script>
@@ -269,5 +303,5 @@
   
 </script>
 </body>
-
+<script type="text/javascript" src="js/jscript.js"></script>
 </html>>
