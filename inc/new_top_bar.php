@@ -4,7 +4,7 @@
             <ul>
                 <!-- <li><a href="#home">Home</a></li> -->
                 <li style=" padding: 0px; width:200px; height: 75px; margin-bottom: 0px; margin-right: 40px;margin-left: -20px;">
-                    <a href="#"><img src="img/logo2.png" alt=""></a>
+                    <a href="#"><img src="./img/home/logo2.png" alt=""></a>
                 </li>
                 <li style="margin-top: 30px;"><a href="#about">Tour Guides</a></li>
                 <li style="margin-top: 30px;"><a href="#service">Tour Packages</a></li>

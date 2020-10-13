@@ -1,12 +1,13 @@
 <html  lang="en">
     <head>
-        <title>Favourite Tour Packages</title>
+        <title>Upcoming Tours</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/tourPackageSearchResults.css">
+    <link rel="stylesheet" href="css/guideUpcomingTours.css">
     <link rel="stylesheet" href="css/guideMyPackages.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -104,7 +105,7 @@
 <div class="package-details">
 
     <!-- 	Package Name -->
-    <h1>The Best of Colombo</h1>
+ 
     <h4 style ="float:left; "><b>Tourist Name: </b>Justin Timberlake</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
     
@@ -115,6 +116,7 @@
     <p style="margin-left:50px; margin-top:10px; text-align:left; margin-top:30px"><b>Start Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>End Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Payment:</b> USD 50</p>
+        <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Special Notes:</b> Allergy to fur. Please avoid visiting places where i contaminate with animal fur.</p>
     </p>
 
 
@@ -123,12 +125,10 @@
     <div class="control">
 
         <!-- Start Button buying -->
-        <<button class="btn" ><span> View More</span>
+        <<button class="cobutton" >Contact Tourist
                
                </button>
-               <button class="btn" style="margin-left:50px"><span> Contact Tourist</span>
-                              
-               </button>
+               
         <!-- End Button buying -->
 
     </div>
@@ -137,16 +137,6 @@
 
 <!-- 	End	Package details   -->
 
-
-
-<!-- 	Start Package image & Information -->
-
-<div class="package-image">
-
-    <img src="img/Packageresult/1.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
 
 
 </div>
@@ -158,7 +148,8 @@
 <div class="package-details">
 
     <!-- 	Package Name -->
-    <h1>The Best of Down-South</h1>
+  
+  
     <h4 style ="float:left; "><b>Name of Tourist: </b> Matt Leblanc</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
 
@@ -171,6 +162,7 @@
         <p style="margin-left:50px; margin-top:10px; text-align:left; margin-top:30px"><b>Start Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>End Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Payment:</b> USD 50</p>
+        <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Special Notes:</b> I'm a Vegetarian . So please make a meal plan that will not hinder my preferences</p>
     </p>
 
 
@@ -179,12 +171,10 @@
     <div class="control">
 
         <!-- Start Button buying -->
-        <button class="btn" ><span> View More</span>
+        <button class="cobutton" ><span> Contact Tourist</span>
                
 </button>
-<button class="btn" style="margin-left:50px"><span> Contact Tourist</span>
-               
-</button>
+
         <!-- End Button buying -->
 
     </div>
@@ -195,14 +185,7 @@
 
 
 
-<!-- 	Start Package image & Information -->
 
-<div class="package-image">
-
-    <img src="img/Packageresult/2.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
 
 
 </div>
@@ -214,12 +197,12 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Make System Payment</button>
+                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true" ></i>Make System Payment</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="margin-top:20px;"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>
