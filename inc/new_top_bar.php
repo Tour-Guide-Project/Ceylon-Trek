@@ -4,7 +4,7 @@
             <ul>
                 <!-- <li><a href="#home">Home</a></li> -->
                 <li style=" padding: 0px; width:200px; height: 75px; margin-bottom: 0px; margin-right: 40px;margin-left: -20px;">
-                    <a href="#"><img src="./img/home/logo2.png" alt=""></a>
+                    <a href="#"><img src="img/logo2.png" alt=""></a>
                 </li>
                 <li style="margin-top: 30px;"><a href="#about">Tour Guides</a></li>
                 <li style="margin-top: 30px;"><a href="#service">Tour Packages</a></li>
@@ -13,9 +13,9 @@
                 <li class="travel_calendar" style="margin-top: 30px;"><a href="#contact">Travel Calendar</a></li>
             </ul>
             <div>
-                <i class="fa fa-user-circle fa-3x" aria-hidden="true" style="margin-top: 5px;margin-left: 20px ;margin-bottom:5px;"></i>
-                <li style=" margin-top: 10px;
-                        margin-right: 35px; 
+                <i class="fa fa-user-circle fa-3x" aria-hidden="true" style="margin-top: 9px;margin-left: 24px ;margin-bottom:5px;"></i>
+                <li style=" margin-top: 3px;
+                        margin-right: 38px; 
                         text-decoration: none;
                         display:block;
                         width: 150%;

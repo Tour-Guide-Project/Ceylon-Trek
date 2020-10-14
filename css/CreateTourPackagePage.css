@@ -6,7 +6,7 @@
 .clearfix{overflow: auto}
 
 body{
-	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 }
 
 .con{
@@ -51,39 +51,46 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
+@media screen and (max-width: 1000px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
 .lbl{
   padding: 5% 5% 5% 0;
   display: inline-block;
 }
 
 .submitCls{
-	margin-top: 3%;
+  margin-top: 3%;
 }
 
 .row input[type=submit]{
-	color: #fff;
+  color: #fff;
   background-color: #007bff;
   border-color: #007bff;  
   padding: 0.5% 1% 0.5% 1%;
   text-align: center;
-  text-decoration: none;	
-  border: none;  	
+  text-decoration: none;  
+  border: none;   
   display: inline;
   font-size: 18px;
   border: 1px solid transparent;
-  border-radius: 0.25rem;  	
-  cursor: pointer;  	
+  border-radius: 0.25rem;   
+  cursor: pointer;    
 }
 
 .row input[type=submit]:hover{
-	color: #fff;
+  color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
 }
 
 .submitCls input[type=submit]{
   width: 20%;
-	color: #fff;
+  color: #fff;
   background-color: #007bff;
   border-color: #007bff;
   padding: 1% 3% 1% 3%;
@@ -98,31 +105,31 @@ input[type=text], select, textarea{
 }
 
 .submitCls input[type=submit]:hover{
-	color: #fff;
+  color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
 }
 
 .submitCls{
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .agreeCls{
-	margin-top: 3%;
-	margin-left: 5%;
-	display: flex;
+  margin-top: 3%;
+  margin-left: 5%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .agreed2{
-	margin-left: 3%;
+  margin-left: 3%;
 }
 
 
 .agreed1 input{
-	width: 20px; 
+  width: 20px; 
   height: 20px;
 }

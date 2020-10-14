@@ -72,7 +72,15 @@ input[type="submit"]:hover{
 	background-color: #5F9EA0;
 	font-weight: bold;
 }
+.text_box h2{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
 .text_box p{
+	padding: 6px;
+}
+.text_box {
 	float: left;
 	font-size: 16px;
 	color: #fff;
@@ -85,6 +93,7 @@ input[type="submit"]:hover{
 	position: center;
 }
 .text_box button{
+	margin-top: 10px;
 	float: right;
 	font-size: 16px;
 	color: black;
@@ -116,11 +125,16 @@ input[type="submit"]:hover{
 
 /* The popup form of create new request- hidden by default */
 .form-popup {
-  display: none;
+  	display: none;
+ 	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 100000;
 }
 
 .form-container {
-    margin:0 auto 20px auto;
+    margin:40px auto 20px auto;
 	width: 500px;
 	padding: 50px;
 	background: #F0F8FF;
