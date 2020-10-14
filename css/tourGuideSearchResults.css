@@ -98,6 +98,14 @@
                 transform: rotate(45deg);
             }
             
+            .sortby {
+                margin-left: 375px;
+                margin-top: 130px;
+                width: 1050px;
+                height: 80px;
+                background: #de4b43;
+            }
+            
             .sortby button {
                 margin-right: 10px;
                 background-color: #2f375b;
@@ -135,14 +143,6 @@
             
             .sortby button:hover {
                 background-color: #3e8e41;
-            }
-            
-            .sortby {
-                margin-left: 375px;
-                margin-top: 130px;
-                width: 1050px;
-                height: 80px;
-                background: #de4b43;
             }
             
             .sortby h2 {

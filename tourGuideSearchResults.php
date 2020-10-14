@@ -12,28 +12,15 @@
 </head>
 
 <body style="background-color:teal">
+
     <div class="container">
 
-
-        <nav class="navbar" style="background: #2f375b;">
-            <ul>
-                <!-- <li><a href="#home">Home</a></li> -->
-                <li style=" padding: 0px; width:200px; height: 75px; margin-bottom: 0px; margin-right: 40px;">
-                    <a href="#"><img src="img/home/logo2.png" alt=""></a>
-                </li>
-                <li style="margin-top: 30px; text-decoration: underline;"><a href="#about">Tour Guides</a></li>
-                <li style="margin-top: 30px;"><a href="#service">Tour Packages</a></li>
-                <li style="margin-top: 30px;"><a href="#contact">Request a Tour</a></li>
-                <li style="margin-top: 30px;"><a href="#contact">Smart Search</a></li>
-                <li style="margin-top: 30px;"><a href="#contact">Travel Calendar</a></li>
-            </ul>
-
-            <button class="loginbutton"><span>Login</span></button>
-            <button class="loginbutton" id="signup"><span>SignUp</span></button>
-        </nav>
+   
+    <?php include('inc/new_top_bar.php'); ?>
 
 
         <div class="sidenav">
+        
             <h2 style="margin-left: 20px;">Filter By</h2>
             <label class="checkbox">Guides with Vehicles
                     <input type="checkbox" checked="checked">

@@ -1,5 +1,5 @@
 
-    <div class="container">
+    <!-- <div class="container"> -->
         <nav class="navbar" style="background: #2f375b;">
             <ul>
                 <!-- <li><a href="#home">Home</a></li> -->
@@ -28,5 +28,5 @@
 
         </nav>
         
-    </div> <!-- container -->
+    <!-- </div> container -->
    

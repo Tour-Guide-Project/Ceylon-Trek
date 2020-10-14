@@ -68,30 +68,3 @@
 
 
 /* the Button */
-
-.btn {
-    transform: translateY(0px);
-    transition: 0.3s linear;
-    background: #de4b43;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: #eee;
-    margin-top: 0px;
-}
-
-.btn:hover {
-    transform: translateY(-4px);
-}
-
-.btn span {
-    font-family: 'Farsan', cursive;
-    transition: transform 0.3s;
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 18px;
-    margin: 0;
-}
