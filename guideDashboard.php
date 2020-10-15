@@ -11,9 +11,10 @@
     </head>
 
     <body class="body">
-    <div class="dashnav"></div>
+    
+    <?php include('inc/new_top_bar.php'); ?>
             <div class="section1"> 
-            <?php include('inc/new_top_bar.php'); ?>
+           
                 <div class="side_bar">
                     <img src="img/home/logo2.png" class="dashlogo">
                     <img src="img/reviewimg.jpg" class="profile" >

@@ -11,7 +11,7 @@
     <script src="js/guideProfile.js"></script> 
 </head>
 
-<body style="background-color:white">
+<body style="background-color:whitesmoke">
     <div class="container">
 
 
@@ -19,7 +19,7 @@
 
 
         <div class="sidenav">
-            <h2 style="margin-left: 20px;">Reviews</h2>
+            <h2 style="margin-left: 20px; margin-bottom:-20px;">Reviews</h2>
             
             
 
@@ -153,7 +153,7 @@
 
             <div class="guide-bio">
                 <p><b><h4>Hello! Bonjour! Guten tag! Ayubowan!! I'm Chathura Rathnayake</h4></b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 <p>So choose me as your Tour Guide to travel in the Paradise Island.</p>
                 <h2 style="margin-top: 20px;  font-weight:bold;">Tour Packages offered by Chathura :</h2>
             </div>

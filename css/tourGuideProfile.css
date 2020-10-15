@@ -1,5 +1,6 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: lato;
 }
 
 * {
@@ -7,7 +8,7 @@ body {
 }
 
 .wrapper {
-    border: 1px solid dodgerBlue;
+    border: 1px solid whitesmoke;
     width: 275px;
     padding: 20px 15px 0px;
     margin: 20px auto;
@@ -22,9 +23,10 @@ body {
     text-align: left;
     /* padding: 5px; */
     font-size: 20px;
-    font-weight: bold;
     /* margin: 15px 0px 5px; */
     text-transform: uppercase;
+    font-family: lato;
+    font-weight: 500;
 }
 
 .client-country {
@@ -32,9 +34,9 @@ body {
     text-align: left;
     /* padding: 5px; */
     font-size: 15px;
-    font-weight: bold;
     /* margin: 15px 0px 5px; */
     text-transform: uppercase;
+    font-family: lato;
 }
 
 .viewmore {
@@ -51,6 +53,7 @@ body {
     font-size: 15px;
     line-height: 1.5;
     text-align: justify;
+    font-family: 'Farsan', cursive;
 }
 
 @media (max-width:576px) {
@@ -68,7 +71,7 @@ body {
     z-index: 1;
     margin-top: 130px;
     margin-left: 20px;
-    background: lightyellow;
+    background: #E8B860;
     /* overflow-x: hidden; */
     padding: 8px 0;
     color: black;
@@ -109,7 +112,8 @@ body {
     margin-left: 75px;
     /* display: inline-block; */
     /* float: left; */
-    padding-top: 30px
+    padding-top: 30px;
+    width: 640px
 }
 
 
@@ -128,7 +132,7 @@ body {
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -22px;
+    margin-top: 20px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -144,6 +148,10 @@ body {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
 }
 
 
@@ -205,7 +213,7 @@ body {
 }
 
 .info {
-    background: rgb(208, 216, 219);
+    background-color: #DDE2DD;
     width: 790px;
     height: auto;
     margin-left: 350px;
@@ -286,6 +294,7 @@ body {
     padding-bottom: 20px;
     color: black;
     margin-top: 0px;
+    font-family: 'Farsan', cursive;
 }
 
 .card {
@@ -297,6 +306,7 @@ body {
     margin-top: 20px;
     color: black;
     margin-bottom: 50px;
+    font-family: lato;
 }
 
 .card button {
@@ -313,4 +323,9 @@ body {
 
 .card button:hover {
     opacity: 0.7;
+}
+
+.card h1 {
+    font-family: lato;
+    font-weight: 500;
 }
