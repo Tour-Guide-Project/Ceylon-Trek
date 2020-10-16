@@ -11,7 +11,7 @@
 
 <body style="background-image: url('img/walk.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
 
-	<?php include('inc/top_bar.php');?>
+	<?php include('inc/new_top_bar.php');?>
 
 	<div class="con">
 		<form>
