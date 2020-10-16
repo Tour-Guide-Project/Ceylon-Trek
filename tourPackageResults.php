@@ -7,11 +7,12 @@
     <title>Tour Package Search Results</title>
     <link rel="stylesheet" href="css/homepage.css">
     <link rel="stylesheet" href="css/tourPackageSearchResults.css">
+    <link rel="stylesheet" href="css/tourGuideSearchResults.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<body style="background-color:teal">
+<body style="background-color:#DDE2DD">
     <div class="container">
 
     <?php include('inc/new_top_bar.php'); ?>
@@ -100,7 +101,7 @@
 
 
                 <!-- 		Control -->
-                <div class="control">
+                <div class="packagecontrol">
 
                     <!-- Start Button buying -->
                     <button class="btn"><span> View More</span>
@@ -157,7 +158,7 @@
 
 
                 <!-- 		Control -->
-                <div class="control">
+                <div class="packagecontrol">
 
                     <!-- Start Button buying -->
                     <button class="btn"><span> View More</span>
@@ -214,7 +215,7 @@
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="packagecontrol">
 
         <!-- Start Button buying -->
         <button class="btn"><span> View More</span>
@@ -271,7 +272,7 @@
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="packagecontrol">
 
         <!-- Start Button buying -->
         <button class="btn"><span> View More</span>
@@ -328,7 +329,7 @@
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="packagecontrol">
 
         <!-- Start Button buying -->
         <button class="btn"><span> View More</span>
@@ -385,7 +386,7 @@
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="packagecontrol">
 
         <!-- Start Button buying -->
         <button class="btn"><span> View More</span>

@@ -3,12 +3,14 @@
                 position: relative;
                 z-index: 1;
                 float: left;
-                background: #fec240;
+                background: #E8B860;
                 overflow-x: hidden;
                 padding: 8px 0;
                 color: black;
                 margin-top: 130px;
                 margin-left: 20px;
+                /* font-family: lato; */
+                border-radius: 5px;
             }
             
             .main {
@@ -103,7 +105,8 @@
                 margin-top: 130px;
                 width: 1050px;
                 height: 80px;
-                background: #de4b43;
+                background: #90A4B1;
+                border-radius: 5px;
             }
             
             .sortby button {
@@ -142,13 +145,15 @@
             /* Add a background color on hover */
             
             .sortby button:hover {
-                background-color: #3e8e41;
+                background-color: rgb(66, 131, 168);
             }
             
             .sortby h2 {
-                font-family: lato;
-                margin-top: 20px;
-                margin-left: 20px;
+                /* font-family: lato; */
+                margin-top: 15px;
+                margin-left: 30px;
+                font-weight: 5px;
+                font-size: 30px;
             }
             
             .tourGuide {
@@ -178,7 +183,7 @@
             /* 	guide Name */
             
             .tourGuide .guide-details h1 {
-                font-family: lato;
+                font-family: 'Farsan', cursive;
                 /* display: inline-block; */
                 position: relative;
                 font-size: 34px;
@@ -214,7 +219,7 @@
             .btn {
                 transform: translateY(0px);
                 transition: 0.3s linear;
-                background: #de4b43;
+                background: #2f375b;
                 border-radius: 5px;
                 position: relative;
                 overflow: hidden;
@@ -230,12 +235,13 @@
             }
             
             .btn span {
-                font-family: 'Farsan', cursive;
+                /* font-family: lato; */
                 transition: transform 0.3s;
                 display: inline-block;
                 padding: 10px 20px;
                 font-size: 18px;
                 margin: 0;
+                font-weight: bold;
             }
             
             .guide-image {

@@ -11,7 +11,7 @@
 
 </head>
 
-<body style="background-color:teal">
+<body style="background-color:#DDE2DD">
 
     <div class="container">
 
@@ -21,7 +21,7 @@
 
         <div class="sidenav">
         
-            <h2 style="margin-left: 20px;">Filter By</h2>
+            <h3 style="margin-left: 20px; font-weight:30px; font-size:22px">Filter By</h2>
             <label class="checkbox">Guides with Vehicles
                     <input type="checkbox" checked="checked">
                     <span class="checkmark"></span>
