@@ -15,7 +15,18 @@
     justify-content: center;	
 }
 
-h1
+.form-box
+{
+	background:  rgba(70, 67, 67, 0.664);
+	padding: 20px 20px;
+    width: 1250px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 150px;
+
+}
+
+.form-box h1
 {
 	text-align: center;
 	color: white;
@@ -97,13 +108,4 @@ h1
 	background-color: #0394CA;
 }
 
- .form-box
-{
-	background:  rgba(70, 67, 67, 0.664);
-	padding: 20px 20px;
-    width: 1250px;
-    float: left;
-    margin-left: 50px;
-    margin-top: 30px;
-
-}
+ 

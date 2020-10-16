@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Tour_Package_All_Reviews</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/packagereview.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/package_review.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -13,15 +13,15 @@
 <body class="packagereviewbody">
 <?php include('inc/top_bar.php'); ?> 
  <div class="wrapper">
-    <div class="split_left" >
+      <div class="split_left" >
            <img src="img/reviewimg.jpg">
-           <h3>Package Name</h3>
            <h3>Guide name</h3>
+           <h3>Package name</h3>
       </div><!--split_left--> 
 
-    <div class="split_right" >
+    
         
-            <div class="box rating">
+      <div class="box rating">
                 
                     <table>
 
@@ -32,7 +32,7 @@
                                  <span class="fa fa-star checked"></span>
                                  <span class="fa fa-star checked"></span>
                                  <span class="fa fa-star checked"></span>
-                                 <span class="fa fa-star"></span>
+                                 <span class="fa fa-star checked"></span>
                              </div><!--star-container-->
                        </td>
 
@@ -58,7 +58,7 @@
                               <div class="star-container">
                                   <span class="fa fa-star checked"></span>
                                   <span class="fa fa-star checked"></span>
-                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star checked"></span>
                               </div><!--star-container-->
                         </td>
  
@@ -128,13 +128,14 @@
             </table>    
             </div><!--star_rating-->     
                    
-    </div><!--split_right-->
+    
 
        <div class="reviews">
             <div class="box review">
                   <h5>Kavindya Devindi</h5>
                     <p>
-                          The trip was amazing, a once in a lifetime opportunity and trip. My sister and I spent 16 days in Italy for her high school graduation trip, and we had an unparalleled experience. We went from Venice to Florence/Tuscany to Cinque Terre to Sorrento to Rome. Everything in each city and in between was incredible. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores fuga quam inventore pariatur. Itaque ea ipsum exercitationem, maxime, eveniet nobis beatae expedita ullam quibusdam repellat rem alias. Inventore, dolorum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti libero consectetur magni harum enim at consequuntur soluta ducimus inventore nisi? Modi suscipit laborum dolorum voluptatem laboriosam aspernatur quidem, autem tempora.      </p>
+                          The trip was amazing, a once in a lifetime opportunity and trip. My sister and I spent 16 days in Italy for her high school graduation trip, and we had an unparalleled experience. We went from Venice to Florence/Tuscany to Cinque Terre to Sorrento to Rome. Everything in each city and in between was incredible. 
+                    </p>
                     
               </div><!--box review-->
   
@@ -153,6 +154,7 @@
                       </p>
                       
               </div><!--box review-->
+              
   
               <div class="box review">
                       <h5>Piyumi Dulanjali</h5>
@@ -161,8 +163,9 @@
                       </p>
                       
                   </div><!--box review-->
-                  <?php include('inc/footer.php'); ?> 
+                 
        </div><!--reviews-->
+        <div class="reviewend"><?php include('inc/footer.php'); ?> </div>
       </div><!--wrapper-->
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <title>Tour_Guide_All_Reviews</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/Guide_AllReviews.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/GuideAllReviews.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -14,14 +14,14 @@
 
 <?php include('inc/top_bar.php'); ?> 
  <div class="wrapper">
-    <div class="split_left" >
+      <div class="split_left" >
            <img src="img/reviewimg.jpg">
            <h3>Guide name</h3>
       </div><!--split_left--> 
 
-    <div class="split_right" >
+    
         
-            <div class="box rating">
+      <div class="box rating">
                 
                     <table>
 
@@ -32,7 +32,7 @@
                                  <span class="fa fa-star checked"></span>
                                  <span class="fa fa-star checked"></span>
                                  <span class="fa fa-star checked"></span>
-                                 <span class="fa fa-star"></span>
+                                 <span class="fa fa-star checked"></span>
                              </div><!--star-container-->
                        </td>
 
@@ -58,7 +58,7 @@
                               <div class="star-container">
                                   <span class="fa fa-star checked"></span>
                                   <span class="fa fa-star checked"></span>
-                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star checked"></span>
                               </div><!--star-container-->
                         </td>
  
@@ -128,7 +128,7 @@
             </table>    
             </div><!--star_rating-->     
                    
-    </div><!--split_right-->
+    
 
        <div class="reviews">
             <div class="box review">
@@ -154,6 +154,7 @@
                       </p>
                       
               </div><!--box review-->
+              
   
               <div class="box review">
                       <h5>Piyumi Dulanjali</h5>
@@ -162,9 +163,9 @@
                       </p>
                       
                   </div><!--box review-->
-                  <?php include('inc/footer.php'); ?> 
+                 
        </div><!--reviews-->
-      
+        <div class="reviewend"><?php include('inc/footer.php'); ?> </div>
       </div><!--wrapper-->
       
 </body>
