@@ -6,11 +6,11 @@
                 <li style=" padding: 0px; width:200px; height: 75px; margin-bottom: 0px; margin-right: 40px;margin-left: -50px; margin-top:5px">
                     <a href="#"><img src="img/logo2.png" alt=""></a>
                 </li>
-                <li style="margin-top: 35px; font-size:17px; margin-left:20px"><a href="#about">Tour Guides</a></li>
-                <li style="margin-top: 35px; font-size:17px; margin-left:-10px""><a href="#service">Tour Packages</a></li>
-                <li class="request_tour" style="margin-top: 35px; font-size:17px; margin-left:-10px""><a href="#contact">Request a Tour</a></li>
-                <li style="margin-top: 35px; font-size:17px; margin-left:-10px""><a href="#contact">Smart Search</a></li>
-                <li class="travel_calendar" style="margin-top: 35px; font-size:17px; margin-left:-10px""><a href="#contact">Travel Calendar</a></li>
+                <li style="margin-top: 45px; font-size:17px; margin-left:20px"><a href="#about">Tour Guides</a></li>
+                <li style="margin-top: 45px; font-size:17px; margin-left:-10px""><a href="#service">Tour Packages</a></li>
+                <li class="request_tour" style="margin-top: 45px; font-size:17px; margin-left:-10px""><a href="#contact">Request a Tour</a></li>
+                <li style="margin-top: 45px; font-size:17px; margin-left:-10px""><a href="#contact">Smart Search</a></li>
+                <li class="travel_calendar" style="margin-top: 45px; font-size:17px; margin-left:-10px""><a href="#contact">Travel Calendar</a></li>
             </ul>
             <div>
                 <i class="fa fa-user-circle fa-3x" aria-hidden="true" style="margin-top: 15px;margin-left: 24px ;margin-bottom:3px;"></i>

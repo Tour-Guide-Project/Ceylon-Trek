@@ -1,8 +1,8 @@
  /* Three columns side by side */
  
- .column {
+ .pcolumn {
      margin-top: 30px;
-     margin-left: 150px;
+     margin-left: 50px;
      float: left;
      width: 300px;
      margin-bottom: 16px;
@@ -11,47 +11,47 @@
  /* Display the columns below each other instead of side by side on small screens */
  
  @media screen and (max-width: 650px) {
-     .column {
+     .pcolumn {
          width: 100%;
          display: block;
      }
  }
  /* Add some shadows to create a card effect */
  
- .card {
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ .pcard {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
  }
  /* Some left and right padding inside the container */
  
- .container {
+ .pcontainer {
      padding: 0 16px;
  }
  /* Clear floats */
  
- .container::after,
- .row::after {
+ .pcontainer::after,
+ .prow::after {
      content: "";
      clear: both;
      display: table;
  }
  
- .title {
+ .ptitle {
      color: grey;
  }
  
- .button {
+ .pbutton {
      border: none;
      outline: 0;
      display: inline-block;
      padding: 8px;
      color: white;
-     background-color: #000;
+     background-color: rgb(87, 85, 85);
      text-align: center;
      cursor: pointer;
      width: 250px;
      margin-bottom: 10px;
  }
  
- .button:hover {
-     background-color: #555;
+ .pbutton:hover {
+     background-color: rgb(167, 17, 17);
  }

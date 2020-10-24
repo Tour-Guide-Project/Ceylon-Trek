@@ -12,26 +12,26 @@
 
     <body class="body">
     
-    <?php include('inc/new_top_bar.php'); ?>
+   
             <div class="section1"> 
-           
+            <?php include('inc/new_top_bar.php'); ?>
                 <div class="side_bar">
                     <img src="img/home/logo2.png" class="dashlogo">
                     <img src="img/reviewimg.jpg" class="profile" >
-                    <button class="edit"> Edit Profile</button><br>
+                    <button class="edit"><span>Edit Profile</span> </button><br>
                   <div class="sidebar-menu">
                     <ul>
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Inbox</span>
+                                <spn class="menu-title">Inbox</span>
                             </a>
                         </li>
 
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Create tour package</span>
+                                <spn class="menu-title">Create tour package</span>
                             </a>
                         </li>
 
@@ -39,14 +39,14 @@
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Profile</span>
+                                <spn class="menu-title">View My Profile</span>
                             </a>
                         </li>
 
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">View My Tour Packages</span>
+                                <spn class="menu-title">View My Tour Packages</span>
                             </a>
                         </li>
 
@@ -54,7 +54,7 @@
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Upcoming Tours</span>
+                                <spn class="menu-title">Upcoming Tours</span>
                             </a>
                         </li>
 
@@ -62,7 +62,7 @@
                         <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-fast-backward fa-1x" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Previous Tours</span>
+                                <spn class="menu-title">Previous Tours</span>
                             </a>
                         </li>
                     </ul>
@@ -70,12 +70,42 @@
                 </div><!--side_bar-->
              <div class="content">
                 <div class="schedule">
-                    <h1>Today's Schedule</h1><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero repellat accusantium ipsum incidunt nulla sint doloribus! Ad corrupti magnam totam alias, eos distinctio porro magni dicta, suscipit, velit illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non, eius voluptatibus dolorum sit quaerat dolores culpa corporis nemo est veritatis ad ipsam laboriosam placeat laborum dolore tenetur aspernatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione corrupti aliquam quae, temporibus fuga facilis nisi dicta similique perspiciatis iste, est a quam et. Aperiam itaque ipsa id iusto blanditiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eius, facilis esse accusantium, cupiditate minus eligendi veritatis ad dolorem minima voluptate? Doloribus facere nam qui consequatur, numquam fugiat incidunt a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit dolor sequi culpa magnam consectetur velit unde itaque, facilis id voluptatum, architecto iste odit, nisi quam rem perspiciatis numquam porro! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem similique maiores quod neque minus ea quam, unde quae laboriosam, dolorum dolores magnam aspernatur explicabo distinctio. Minima maxime voluptate repellendus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus veniam eaque distinctio ut aliquam rem! Fugit quia vel mollitia iste corporis tenetur tempore, fuga doloribus fugiat necessitatibus dolorum nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt unde nostrum sit veniam dolorum ipsum mollitia quisquam. Id commodi eaque dolor voluptate alias maiores magnam quibusdam aliquid voluptas minus!</p>   
-                    
-                        <div><button class="schedule_button">View Tommorow</button></div>
-                        <button class="schedule_button ">Schedule Complete</button>
-                        <button class="schedule_button ">Schedule Not Complete</button>
+                    <h1>CeylonTrek Guide Dashboard</h1><br>
+                         <table class="table-fill">
+                                
+                                <tbody class="table-hover">
+                                <tr>
+                                <td class="text-left">Tours in This Month</td>
+                                <td class="text-left">5</td>
+                                </tr>
+                                
+                                <tr>
+                                <td class="text-left">Earnings in This Month</td>
+                                <td class="text-left">$ 800.00</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">All time Tours</td>
+                                <td class="text-left">140</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">Total Earnings</td>
+                                <td class="text-left">$ 10,000.00</td>
+                                </tr>
+                                
+                                <tr>
+                                <td class="text-left">All Ratings</td>
+                                <td class="text-left">140</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">All Reviews</td>
+                                <td class="text-left">120</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">Due System Payment</td>
+                                <td class="text-left">$ 80</td>
+                                </tr>
+                                </tbody>
+                                </table>
                  
                 </div><!--schedule-->
           
@@ -103,12 +133,12 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay System Fee</button>
+                            <button class="cobutton" style="width:275px"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay System Fee</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="width:275px; margin-top:20px"><i class="fa fa-phone  aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>

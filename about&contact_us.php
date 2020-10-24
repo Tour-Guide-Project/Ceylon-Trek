@@ -11,13 +11,13 @@
     </head>
  
     <body class="about_body">
-    <?php include('inc/top_bar.php'); ?> 
+    <?php include('inc/new_top_bar.php'); ?> 
         <div class="about_header">
         
            <h4>ABOUT US</h4>
         </div>
         <div class="middle-content">
-        <div class="content 1">
+        <div class="content">
             <h3>| WHO WE ARE</h3>
              <p>Our web site http//ceylontreck.com has been founded local tour guides , to have better visibility and a fair price on their services.</p>
         </div>
@@ -40,6 +40,8 @@
                      <td>
                          <div class="contact_form" >
                             <form>
+                            <h4>For more information visit our Frequently Asked Questions Page <a href="">here</a> </h4>
+                            <h3>To contact us with any questions you have, fill out the form below. </h3>
                                 <label for="name">Name</label><br>
                                 <input type="text" id="name" name="name"><br>
                                 <label for="email">Email</label><br>
@@ -47,7 +49,7 @@
                                 <label for="subject">Subject</label><br>
                                 <input type="subject" id="subject" name="subject"><br>
                                 <label for="message">Message</label><br>
-                                <textarea name="message" cols="88" rows="5"></textarea><br>
+                                <textarea style="border-radius:10px; margin-top:10px" name="message" cols="78" rows="5"></textarea><br>
                                 <button name="send">Send</button>
                             </form>
 
@@ -60,23 +62,7 @@
                          </div>
                      </td>
                      <td>
-                         <div class="info">
-                             <h4>CONTACT INFO</h4>
-                               <div><h5>NO:10 ,Ceylon Treck,</h5></div>
-                               <div><h5>Wijethunga Mawatha,</h5></div>
-                               <div><h5>Colombo 07.</h5></div>
-                               <div><h5>Mobile:+94783456278</h5></div>
-                               <div><h5>Tel:+94412389456</h5></div>
-                               <div><h5>ceylontreck@gmail.com</h5></div>
-
-
-                               <div class="contact-icon">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                                <i class="fa fa-rss" aria-hidden="true"></i>
-                            </div><!--contact-icon-->
-                         </div>
+                       
                          
                      </td>
                         

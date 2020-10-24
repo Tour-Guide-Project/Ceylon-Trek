@@ -63,12 +63,35 @@
                 </div><!--side_bar-->
              <div class="content">
                 <div class="schedule">
-                    <h1>Today's Schedule</h1><br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique libero repellat accusantium ipsum incidunt nulla sint doloribus! Ad corrupti magnam totam alias, eos distinctio porro magni dicta, suscipit, velit illo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, non, eius voluptatibus dolorum sit quaerat dolores culpa corporis nemo est veritatis ad ipsam laboriosam placeat laborum dolore tenetur aspernatur Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione corrupti aliquam quae, temporibus fuga facilis nisi dicta similique perspiciatis iste, est a quam et. Aperiam itaque ipsa id iusto blanditiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eius, facilis esse accusantium, cupiditate minus eligendi veritatis ad dolorem minima voluptate? Doloribus facere nam qui consequatur, numquam fugiat incidunt a! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore reprehenderit dolor sequi culpa magnam consectetur velit unde itaque, facilis id voluptatum, architecto iste odit, nisi quam rem perspiciatis numquam porro! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem similique maiores quod neque minus ea quam, unde quae laboriosam, dolorum dolores magnam aspernatur explicabo distinctio. Minima maxime voluptate repellendus  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi minus veniam eaque distinctio ut aliquam rem! Fugit quia vel mollitia iste corporis tenetur tempore, fuga doloribus fugiat necessitatibus dolorum nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt deserunt unde nostrum sit veniam dolorum ipsum mollitia quisquam. Id commodi eaque dolor voluptate alias maiores magnam quibusdam aliquid voluptas minus!</p>   
-                    
-                        <div><button class="schedule_button">View Tommorow</button></div>
-                        <button class="schedule_button ">Schedule Complete</button>
-                        <button class="schedule_button ">Schedule Not Complete</button>
+                    <h1 >Welcome to Your CeylonTrek Profile</h1><br>
+                   <p>This is your personalised profile. You can view your Favourite Guides, Favourite Packages, Upcoming Tours and Previous Tours.</p>
+                   <p>To rate any Guide or Package, use your Previous Tours Tab. </p>
+                   <p>For all the frequently asked questions, view our <a href="#">FAQ</a> Page or simply Contact CeylonTrek.</p>
+                   <p>Heres is a Summary of your interaction with CeylonTrek.</p>
+
+                   <table class="table-fill">
+                                
+                                <tbody class="table-hover">
+                                <tr>
+                                <td class="text-left">All Previous Tours with CeylonTrek</td>
+                                <td class="text-left">5</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">All Upcoming Tours with CeylonTrek</td>
+                                <td class="text-left">1</td>
+                                </tr>
+                                
+                                <tr>
+                                <td class="text-left">Guides Reviewed</td>
+                                <td class="text-left">2</td>
+                                </tr>
+                                <tr>
+                                <td class="text-left">Packages Reviewed</td>
+                                <td class="text-left">2</td>
+                                </tr>
+
+                                </tbody>
+                                </table>
                  
                 </div><!--schedule-->
           
@@ -96,12 +119,12 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Make a Complain</button>
+                            <button class="cobutton" style="width:260px"><i class="fa fa-credit-card" aria-hidden="true"></i>Make a Complain</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="width:260px; margin-top:20px"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>

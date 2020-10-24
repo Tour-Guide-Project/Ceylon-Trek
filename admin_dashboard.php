@@ -18,11 +18,12 @@ session_start();?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/admin_dashboard.css">
+	<link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
 	<link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-image: url('img/ct7.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+<body style="background-color:whitesmoke">
 	<?php include('inc/new_top_bar.php'); ?>
 
 	<div class="side_bar">
@@ -36,7 +37,33 @@ session_start();?>
                           <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
                           <span class="menu-title">Inbox</span>
                       </a>
-                  </li>
+				  </li>
+				  
+				  <li>
+                       <a href="#">
+                           <span class="menu-icon"><i class="fa fa-question-circle fa-1x" aria-hidden="true"></i></span>
+                           <span class="menu-title">Complains</span>
+                       </a>
+                   </li>
+
+
+                  
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View all Guides</span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View all Tourists</span>
+                        </a>
+                    </li>
               </ul>
             </div><!--sidebar-manu-->        
     </div><!--side_bar-->
@@ -44,11 +71,11 @@ session_start();?>
 	<div class="admin_dashboard_box">
 	
 			<form action="admin_dashboard.php" method="post">
-					<button type="submit" >Complains</button>
-					<button type="submit" >View Guide</button>
-					<button type="submit" >View User</button>
-					<button type="submit" name="submit_admin" >Create Admin Account</button>
-					<button type="submit" name="submit_moderator">Create Moderator Account</button>
+					
+					<button style="padding:15px;" type="submit" name="submit_admin" >Create Admin Account</button>
+					<button style="padding:15px;" type="submit" name="submit_moderator">Create Moderator Account</button>
+					
+	<button style="padding:15px;" type="button" class="create_notification_btn" onclick="openForm()">Create Notification</button>
 				<div class="text_box">
 					<label for="details"><b>System Statics</b></label>
     				<textarea rows = "20" cols = "20" name = "details" placeholder="system statics details here..."></textarea>
@@ -57,7 +84,6 @@ session_start();?>
 
 	</div><!-- complains_box -->
 
-	<button type="button" class="create_notification_btn" onclick="openForm()">Create Notification</button>
 
 	<!-- send notification popup window -->
 	<div class="form-popup" id="myForm">

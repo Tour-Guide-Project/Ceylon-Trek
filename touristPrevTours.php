@@ -100,7 +100,7 @@
 
     <!-- 	Package Name -->
  
-    <h4 style ="float:left; "><b>Tourist Name: </b>Justin Timberlake</h4>
+    <h4 style ="float:left; "><b>Guide Name: </b>Iranga Mudalige</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
     
 
@@ -147,7 +147,7 @@
     <!-- 	Package Name -->
   
   
-    <h4 style ="float:left; "><b>Name of Tourist: </b> Matt Leblanc</h4>
+    <h4 style ="float:left; "><b>Guide Name: </b> Chathura Rathnayake</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
 
     
@@ -168,7 +168,7 @@
     <div class="controler">
 
         <!-- Start Button buying -->
-        <button class="cobutton" > Contact Tourist
+        <button class="cobutton" > Contact Guide
                
 </button>
 <button class="cobutton" > Write a Review
@@ -197,12 +197,12 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true" ></i>Make a Complain</button>
+                            <button class="cobutton" style="width:260px"><i class="fa fa-credit-card" aria-hidden="true" ></i>Make a Complain</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton" style="margin-top:20px;"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="width:260px; margin-top:20px"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>

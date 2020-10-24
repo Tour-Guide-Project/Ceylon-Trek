@@ -1,12 +1,15 @@
 <html  lang="en">
     <head>
         <title>Moderator Dashboard</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
+       
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/tourGuideProfile.css">
     <link rel="stylesheet" href="css/modApproveProfile.css">
+    <link rel="stylesheet" type="text/css" href="css/admin_dashboard.css">
+	<link rel="stylesheet" type="text/css" href="css/Guidedashboardpage.css">
+
     <script src="js/guideProfile.js"></script> 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,24 +20,58 @@
     <div class="dashnav"></div>
             <div class="section1"> 
             <?php include('inc/new_top_bar.php'); ?>
-                <div class="side_bar">
-                    <img src="img/home/logo2.png" class="dashlogo">
-                    <img src="img/reviewimg.jpg" class="profile" >
-                    <button class="edit"> Edit Profile</button><br>
-                  <div class="sidebar-menu">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
-                                <spn class="manu-title">Inbox</span>
-                            </a>
-                        </li>
-                      
-                      
-                    </ul>
-                  </div><!--sidebar-manu-->        
-                </div><!--side_bar-->
-                <div class="content">
+               
+	<div class="side_bar">
+        <img src="img/logo2.png" class="dashlogo">
+        <img src="img/reviewimg.jpg" class="profile" >
+		<button class="edit"><a style="color=white;" href="view_moderator_profile.php"><span>Edit Profile</span></a></button><br>
+        
+            <div class="sidebar-menu">
+              <ul>
+                  <li>
+                      <a href="#">
+                          <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
+                          <span class="menu-title">Inbox</span>
+                      </a>
+                  </li>
+				  <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-folder-open fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">Pending Profiles</span>
+                        </a>
+                    </li>
+
+                   <li>
+                       <a href="#">
+                           <span class="menu-icon"><i class="fa fa-question-circle fa-1x" aria-hidden="true"></i></span>
+                           <span class="menu-title">Complains</span>
+                       </a>
+                   </li>
+
+
+                  
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View all Guides</span>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View all Tourists</span>
+                        </a>
+                    </li>
+              </ul>
+            </div><!--sidebar-manu-->        
+	</div><!--side_bar-->
+                
+    
+    <div class="content">
                 <div class="guideInfo">
             
         
@@ -61,6 +98,7 @@
             </div>
             <button class="loginbutton" style="height:65px; margin-right:115px"><span>Decline Profile</span></button>
             <button class="loginbutton"style="height:65px; margin-left:0px"><span>Approve Profile</span></button>
+            <button class="loginbutton"style="height:65px; margin-left:0px; margin-right:285px; margin-top:10px"><span>Message Guide</span></button>
 </div>
 
          <!-- end of guide info -->

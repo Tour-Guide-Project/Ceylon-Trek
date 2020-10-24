@@ -84,11 +84,11 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-image: url('img/ct7.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+<body style="background-color:whitesmoke;">
 	<?php include('inc/new_top_bar.php'); ?>
 	<div class="signup_box">
 		<form action="create_admin_and_moderator_account.php" method="post">
-			<h1>Create Account</h1>
+			<h1 style="color:white;">Create Account</h1>
 			<?php
 				if (isset($_POST['submit'])) {
 
@@ -183,8 +183,8 @@ if (isset($_POST['submit'])) {
 				</div>
 			</div><!-- text_box -->	
 			
-			<button class="cancel" type="cancel" name="cancel">Cancel</button>
-			<button class="submit" type="submit" name="submit">Create Account</button>
+			<button style="background-color:#2f375b;" class="cancel" type="cancel" name="cancel">Cancel</button>
+			<button style="background-color:#2f375b;" class="submit" type="submit" name="submit">Create Account</button>
 
 			<p>Already have an account? <a href="login.php">Log In</a></p>
 			

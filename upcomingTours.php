@@ -1,12 +1,14 @@
 <html  lang="en">
     <head>
-        <title>Favourite Tour Packages</title>
+        <title>Upcoming Tours</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/tourPackageSearchResults.css">
+    <link rel="stylesheet" href="css/guideUpcomingTours.css">
     <link rel="stylesheet" href="css/guideMyPackages.css">
+    <link rel="stylesheet" href="css/touristPrevTours.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
@@ -21,7 +23,7 @@
                     <button class="edit"> Edit Profile</button><br>
                   <div class="sidebar-menu">
                     <ul>
-                        <li>
+                    <li>
                             <a href="#">
                                 <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
                                 <spn class="manu-title">Inbox</span>
@@ -97,38 +99,31 @@
 <div class="package-details">
 
     <!-- 	Package Name -->
-    <h1>The Best of Colombo</h1>
-    <h4 style ="float:left">Chathura Rathnayake</h4>
+ 
+    <h4 style ="float:left; "><b>Guide Name: </b>Iranga Mudalige</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
-
-    <span class="hint-star star" >
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</span>
+    
 
 
     <!-- Package bio -->
     <p class="information">
-    <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Start Date:</b> 23/04/2020</p>
+    <p style="margin-left:50px; margin-top:10px; text-align:left; margin-top:30px"><b>Start Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>End Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Payment:</b> USD 50</p>
+        <p style="margin-left:50px; margin-top:10px; text-align:left;"><b> My Special Notes:</b> Allergy to fur. Please avoid visiting places where i contaminate with animal fur.</p>
     </p>
 
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="controler">
 
         <!-- Start Button buying -->
-        <<button class="btn" ><span> View More</span>
+        <<button class="cobutton" >Contact Guide
                
                </button>
-               <button class="btn" style="margin-left:50px"><span> Contact Guide</span>
-                              
-               </button>
+               
+               
         <!-- End Button buying -->
 
     </div>
@@ -137,16 +132,6 @@
 
 <!-- 	End	Package details   -->
 
-
-
-<!-- 	Start Package image & Information -->
-
-<div class="package-image">
-
-    <img src="img/Packageresult/1.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
 
 
 </div>
@@ -158,38 +143,34 @@
 <div class="package-details">
 
     <!-- 	Package Name -->
-    <h1>The Best of Down-South</h1>
-    <h4 style ="float:left">Chathura Rathnayake</h4>
+  
+  
+    <h4 style ="float:left; "><b>Guide Name: </b> Chathura Rathnayake</h4>
     <h4 style="padding-left:450px">No. of Days : 4</h4>
 
-    <span class="hint-star star" >
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</span>
+    
+    
 
 
     <!-- Package bio -->
     <p class="information" >
-        <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Start Date:</b> 23/04/2020</p>
+        <p style="margin-left:50px; margin-top:10px; text-align:left; margin-top:30px"><b>Start Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>End Date:</b> 23/04/2020</p>
         <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>Payment:</b> USD 50</p>
+        <p style="margin-left:50px; margin-top:10px; text-align:left;"><b>My Special Notes:</b> I'm a Vegetarian . So please make a meal plan that will not hinder my preferences</p>
     </p>
 
 
 
     <!-- 		Control -->
-    <div class="control">
+    <div class="controler">
 
         <!-- Start Button buying -->
-        <button class="btn" ><span> View More</span>
+        <button class="cobutton" > Contact Guide
                
 </button>
-<button class="btn" style="margin-left:50px"><span> Contact Guide</span>
-               
-</button>
+
+
         <!-- End Button buying -->
 
     </div>
@@ -200,14 +181,7 @@
 
 
 
-<!-- 	Start Package image & Information -->
 
-<div class="package-image">
-
-    <img src="img/Packageresult/2.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
 
 
 </div>
@@ -219,12 +193,12 @@
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton"><i class="fa fa-credit-card" aria-hidden="true"></i>Make a Complain</button>
+                            <button class="cobutton" style="width:260px"><i class="fa fa-credit-card" aria-hidden="true" ></i>Make a Complain</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="width:260px; margin-top:20px"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>

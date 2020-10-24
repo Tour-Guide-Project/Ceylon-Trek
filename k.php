@@ -1,18 +1,19 @@
 <html  lang="en">
     <head>
-        <title>My Packages</title>
+        <title>Guide dash board</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/Guidedashboardpage.css'>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/tourPackageSearchResults.css">
-    <link rel="stylesheet" href="css/guideMyPackages.css">
+    <link rel="stylesheet" type="text/css" href="css/CreateTourPackagePage.css">
+  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body class="body">
-    <div class="dashnav"></div>
+    
+   
             <div class="section1"> 
             <?php include('inc/new_top_bar.php'); ?>
                 <div class="side_bar">
@@ -68,8 +69,74 @@
                     </ul>
                   </div><!--sidebar-manu-->        
                 </div><!--side_bar-->
-
-                <div class="calendar">
+             <div class="content">
+               
+                <div class="con">
+		<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="title" class="lbl">Title</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="title">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="duration" class="lbl">Duration</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="duration">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="destinations" class="lbl">Destinations</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="destinations">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="maxNoOfMembers" class="lbl">Maximum No Of Members</label>
+				</div>
+				<div class="col-75">
+					<input type="text" name="maxNoOfMembers">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="imageUpload" class="lbl">Image Upload</label>
+				</div>
+				<div class="col-75">
+					<input type="submit" name="imageUpload" value="Upload Image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="enterDescription" class="lbl">Enter Description</label>
+				</div>
+				<div class="col-75">
+					<textarea name="enterDescription" style="height: 150px"></textarea>
+				</div>
+			</div>
+			<div class="agreeCls">
+				<div class="agreed1">
+					<input type="checkbox" name="agree">
+				</div>
+				<div class="agreed2">
+					<label for="agree">I agree that I will take the whole responsibility of the tour and I will not hold Ceylon Trek against any problems occured during tour.</label>
+				</div>
+			</div>
+			<div class="submitCls">
+				<input type="submit" name="createPackage" value="Create Package">
+			</div>
+		</form>
+    </div>
+    <!-- form -->
+                
+          
                 <div class="guidecalender">
                     <div class="month">
                         <i class="fa fa-caret-left prev" aria-hidden="true"></i>
@@ -91,138 +158,15 @@
                               
                     </div><!--days-->
                 </div><!--guidecalender-->
-                </div>
-                <!-- end of calendar -->
-             <div class="content">
-               
-             <div class="packages">
-                    
-                <div class="tourPackage">
-
-<!-- Start	Package details -->
-<div class="package-details">
-
-    <!-- 	Package Name -->
-    <h1>The Best of Colombo</h1>
-    <h4 style ="float:left">Chathura Rathnayake</h4>
-    <h4 style="padding-left:450px">No. of Days : 4</h4>
-
-    <span class="hint-star star" >
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</span>
-
-
-    <!-- Package bio -->
-    <p class="information">
-        I'm an experienced Tour Package who has been working in the industry for almost a decade. I have completed more than 250 local tours and more than 100 international tours. With reasonable prices and high quality service you will never regret choosing me
-        as your travel Package and friend from Sri Lanka.
-    </p>
-
-
-
-    <!-- 		Control -->
-    <div class="pkgcontrol">
-
-        <!-- Start Button buying -->
-        <button class="cobutton"><span> View More</span>
-               
-</button>
-        <!-- End Button buying -->
-
-    </div>
-
-</div>
-
-<!-- 	End	Package details   -->
-
-
-
-<!-- 	Start Package image & Information -->
-
-<div class="package-image">
-
-    <img src="img/Packageresult/1.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
-
-
-</div>
-<!-- tourPackage1 -->
-
-<div class="tourPackage">
-
-<!-- Start	Package details -->
-<div class="package-details">
-
-    <!-- 	Package Name -->
-    <h1>The Best of Down-South</h1>
-    <h4 style ="float:left">Chathura Rathnayake</h4>
-    <h4 style="padding-left:450px">No. of Days : 4</h4>
-
-    <span class="hint-star star" >
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star" aria-hidden="true"></i>
-<i class="fa fa-star-half-o" aria-hidden="true"></i>
-<i class="fa fa-star-o" aria-hidden="true"></i>
-</span>
-
-
-    <!-- Package bio -->
-    <p class="information">
-        I'm an experienced Tour Package who has been working in the industry for almost a decade. I have completed more than 250 local tours and more than 100 international tours. With reasonable prices and high quality service you will never regret choosing me
-        as your travel Package and friend from Sri Lanka.
-    </p>
-
-
-
-    <!-- 		Control -->
-    <div class="pkgcontrol">
-
-        <!-- Start Button buying -->
-        <button class="cobutton"><span> View More</span>
-               
-</button>
-        <!-- End Button buying -->
-
-    </div>
-
-</div>
-
-<!-- 	End	Package details   -->
-
-
-
-<!-- 	Start Package image & Information -->
-
-<div class="package-image">
-
-    <img src="img/Packageresult/2.jpg" alt="Omar Dsoky">
-
-</div>
-<!--  End Package image  -->
-
-
-</div>
-<!-- tourPackage2 -->
-            </div>
-              <!-- end of packages -->
-              
-        
 
                 <div class="corner_buttons">
                         <div>
-                            <button class="cobutton" style="width:260px;"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay System Fee</button>
+                            <button class="cobutton" style="width:275px"><i class="fa fa-credit-card" aria-hidden="true"></i>Pay System Fee</button>
                         </div>
 
                         <div>
                             
-                            <button class="cobutton" style="width:260px; margin-top:20px"><i class="fa fa-phone" aria-hidden="true"></i>Contact Ceylon Treck</button>
+                            <button class="cobutton" style="width:275px; margin-top:20px"><i class="fa fa-phone  aria-hidden="true"></i>Contact Ceylon Treck</button>
                         </div>
                 </div><!--corner_button-->
 </div>

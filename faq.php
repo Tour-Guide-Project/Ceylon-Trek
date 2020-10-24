@@ -13,15 +13,15 @@
     <body class="faqbody">
    
         <div class="faq_header">
-        <?php include('inc/top_bar.php'); ?>
-             <h1>Frequently asked quections</h1>
+        <?php include('inc/new_top_bar.php'); ?>
+             <h1>Frequently Asked Questions</h1>
           <table>
              <tr>
                  <td>
                   <a href="#section1">
                      <div class="qtype 1">
                         <i class="fa fa-search fa-3x" aria-hidden="true"></i>
-                        <h2>General FAQ</h2>
+                        <h2 style="margin-left:70px;">General FAQ</h2>
                      </div>
                   </a>
                 </td>
@@ -46,7 +46,7 @@
                   <a href="#section4">
                     <div class="qtype 4">
                      <i class="fa fa-suitcase fa-3x" aria-hidden="true"></i>
-                     <h2>Tours FAQ</h2>
+                     <h2 style="margin-left:70px;">Tours FAQ</h2>
                     </div>
                    </a>
                   </td>
@@ -119,7 +119,7 @@
      
      <div class="section" id="section3">
       <div class="section3">
-      <h3>tour payments FAQ</h3>
+      <h3>Tour payments FAQ</h3>
        <button class="accordion"> Will my tour group tour or private tour?</button>
        <div class="answer">
                 <p>All our Sri Lanka Tours are private tours which means we will have this tour arranged only for you and your family/friends.</p>
@@ -151,7 +151,7 @@
   
 
   <div class="section" id="section4">
-   <h3>tours FAQ</h3>
+   <h3>Tours FAQ</h3>
     <button class="accordion"> Will my tour group tour or private tour?</button>
     <div class="answer">
              <p>All our Sri Lanka Tours are private tours which means we will have this tour arranged only for you and your family/friends.</p>

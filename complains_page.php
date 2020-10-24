@@ -7,11 +7,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/complains.css">
+	<link rel="stylesheet" type="text/css" href="css/Guidedashboardpage.css">
 	<link rel="stylesheet" href="css/top_bar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body style="background-image: url('img/ct7.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+<body style="background-color:#DDE2DD;">
 	<?php include('inc/new_top_bar.php'); ?>
 
 	<div class="side_bar">
@@ -20,25 +21,34 @@
         <button class="edit"> Edit Profile</button><br>
             <div class="sidebar-menu">
               <ul>
-                  <li>
+			  <li>
                       <a href="#">
                           <span class="menu-icon"><i class="fa fa-comment-o" aria-hidden="true"></i></span>
                           <span class="menu-title">Inbox</span>
                       </a>
                   </li>
+				  <li>
+                        <a href="#">
+                            <span class="menu-icon"><i class="fa fa-folder-open fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">Pending Profiles</span>
+                        </a>
+                    </li>
 
                    <li>
                        <a href="#">
-                           <span class="menu-icon"><i class="fa fa-plus-square fa-1x" aria-hidden="true"></i></span>
-                           <span class="menu-title">Create tour package</span>
+                           <span class="menu-icon"><i class="fa fa-question-circle fa-1x" aria-hidden="true"></i></span>
+                           <span class="menu-title">Complains</span>
                        </a>
                    </li>
 
 
+                  
+
+
                     <li>
                         <a href="#">
-                            <span class="menu-icon"><i class="fa fa-eye fa-1x" aria-hidden="true"></i></span>
-                            <span class="menu-title">View Tour Package</span>
+                            <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
+                            <span class="menu-title">View all Guides</span>
                         </a>
                     </li>
 
@@ -46,15 +56,7 @@
                     <li>
                         <a href="#">
                             <span class="menu-icon"><i class="fa fa-fast-forward fa-1x" aria-hidden="true"></i></span>
-                            <span class="menu-title">Upcoming Tours</span>
-                        </a>
-                    </li>
-
-
-                    <li>
-                        <a href="#">
-                            <span class="menu-icon"><i class="fa fa-fast-backward fa-1x" aria-hidden="true"></i></span>
-                            <span class="menu-title">Previous Tours</span>
+                            <span class="menu-title">View all Tourists</span>
                         </a>
                     </li>
                     </ul>
