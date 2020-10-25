@@ -16,7 +16,7 @@
 	<div class="con">
 		<h1 class="ttl"><b>Hikkaduwa</b></h1>
 		<div class="image">
-			<img src="img/1.jpg" alt="Paris" style="width:40%;">
+			<img src="img/1.jpg" alt="Paris" style="width:60%;">
 		</div>
 
 		<div>

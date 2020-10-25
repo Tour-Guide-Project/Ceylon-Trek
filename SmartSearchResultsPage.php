@@ -16,7 +16,7 @@
 	<div class="con">
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -30,7 +30,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -44,7 +44,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -58,7 +58,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -72,7 +72,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -86,7 +86,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -100,7 +100,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>
@@ -114,7 +114,7 @@
 
 		<div class="section">
 			<div class="image">
-				<img src="img/tree.jpg" alt="Paris" style="width:40%;">
+				<img src="img/tree.jpg" alt="Paris" style="width:70%;">
 			</div>
 
 			<div>

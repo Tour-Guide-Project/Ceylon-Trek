@@ -47,7 +47,7 @@
 
                </div><!--check-box-->
                  <br><br><br><br>
-                 <button class="seeall-button">SEE ALL PACKAGE</button>
+                 <button class="seeall-button">SEE ALL PACKAGES</button>
       	</div><!--form-box-->
 
 
