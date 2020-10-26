@@ -135,7 +135,7 @@ session_start();
 				</div><!-- text_box -->	
 				<a href="Login.php">&laquo; Back</a>
 
-				<button type="submit" name="submit">Submit</button>
+				<button style="background-color:#2f375b;" type="submit" name="submit">Submit</button>
 			
 			</form>
 

@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body style="background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
+<body style="background-color:grey;">
 
 	<?php include('inc/new_top_bar.php');?>
 

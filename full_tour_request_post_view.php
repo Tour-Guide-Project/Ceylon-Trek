@@ -13,12 +13,12 @@
 </head>
 <body style="background-image: url('img/ct5.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
 	<?php include('inc/top_bar.php'); ?>
-	<div class="full_tour_request_post_view_box">
+	<div class="full_tour_request_post_view_box" style="margin-bottom:120px">
 			<form action="full_tour_request_post_view.php" method="post">
 				
 				<div class="text_box">
-					<img src="img/ct6.jpg" width="112" height="112" style="border-radius: 65px;vertical-align:middle;float: left;">
-					<h1>Title</h1>
+					
+					<h1 style="text-align:left; margin-left:8px; color:white;">Title</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

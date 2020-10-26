@@ -13,8 +13,16 @@
 </head>
 <body style="background-image: url('img/ct4.jpg'); background-size:cover;background-position: center center;background-attachment: fixed; background-repeat:no-repeat;">
 	<?php include('inc/top_bar.php'); ?>
+	
+	
+	<div class="create_request_btn">
+		<button onclick="openForm()"> Create New Request</button>
+	</div><!-- create_request_btn -->
+	
 	<div class="tour_request_post_box">
 			<!-- <h1>Tour Request Post </h1> -->
+
+			
 			<form action="tour_request_post.php" method="post">
 
 				<div class="text_box_search_bar">
@@ -67,9 +75,6 @@
 
 	</div><!-- tour_request_post_box -->
 
-	<div class="create_request_btn">
-		<button onclick="openForm()"> Create New Request</button>
-	</div><!-- create_request_btn -->
 
 	<div class="form-popup" id="myForm">
   		<form action="tour_request_post.php" class="form-container">
